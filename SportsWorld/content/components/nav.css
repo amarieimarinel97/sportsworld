@@ -1,0 +1,38 @@
+@font-face {
+font-family: WorkSans;
+src: url(../fonts/WorkSans.ttf);
+}
+
+#logo{
+  font-weight: 800;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #aaa;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: WorkSans;
+  font-weight: 300;
+}
+
+li a:hover:not(.active) {
+  background-color: #888;
+}
+
+.active {
+  background-color: #555;
+}

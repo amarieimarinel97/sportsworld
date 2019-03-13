@@ -1,0 +1,57 @@
+@font-face {
+font-family: WorkSans;
+src: url(../fonts/WorkSans.ttf);
+}
+
+
+.container_left{
+  padding: 1.5% 0.7% 1.5% 7.3%;
+  height: 47.5%;
+  background-color: #fff;
+  float:left;
+  width:25%;
+}
+
+.container_right{
+  padding: 1.5% 36.18% 1.5% 0.7%;
+  height: 47.5%;
+  background-color: #fff;
+  float:right;
+  width:25%;
+}
+
+.big_container{
+  padding: 5.28% 36.18% 1.5% 7.3%;
+  height: 43.75%;
+  background-color: #fff;
+  width:56.25%;
+
+}
+
+.img_container{
+  height:250px;
+  margin:0;
+  padding:0;
+}
+
+.text_container{
+  overflow: auto;
+
+}
+
+.text_container a{
+text-decoration: none;
+}
+
+
+.text_container h2{
+  font-size:1.3em;
+  font-family: WorkSans;
+  font-weight: 300;
+}
+.text_container h1{
+  font-size:1em;
+  font-family: WorkSans;
+  font-weight: 300;
+  color: #888;
+}

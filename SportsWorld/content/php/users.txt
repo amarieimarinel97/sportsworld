@@ -1,0 +1,7 @@
+{"myusers":
+[
+{"myuser":"student","mypass":"student","avt":"studentavt.png","team":"Real Madrid CF","email":"aalexandrescu@yahoo.com","age":19},
+{"myuser":"marr","mypass":"mypass","avt":"marravt.png","team":"FC Barcelona","email":"marinel.amariei97@yahoo.com","age":21},
+{"myuser":"moderator","mypass":"moderator","avt":"modavt.png","team":"FCSB","email":"moderator@sportsworld.com","age":21}
+]
+}

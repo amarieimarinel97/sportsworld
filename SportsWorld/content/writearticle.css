@@ -1,0 +1,74 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans.ttf);
+  }
+  
+body {
+  font-family: WorkSans, sans-serif;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  width:60%;
+  margin: 5% 20%;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #999;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+
+input[type="file"] {
+  display: none ;
+}
+
+.custom-file-upload {
+  background-color: #999;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  display:block;
+  text-align: center;
+  width:auto;
+}
+
+textarea{
+  min-height: 5rem;
+  vertical-align: text-top;
+  resize: none;
+}
